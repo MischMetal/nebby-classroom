@@ -60,8 +60,9 @@ Open the graph with `xdg-open results/wikipedia/cwnd.png`, or copy it out of you
 
 **Large pages from the top 5,000 websites.** `full_links.csv` (from the Nebby
 study) lists one large page for each of the 5,000 most popular websites, as
-`<rank> <domain> <url>`. These pages are big enough to produce meaningful
-graphs. Measuring all of them takes days, so pick a range of ranks:
+`<rank> <domain> <url>`, with adult sites removed (so some ranks are missing).
+These pages are big enough to produce meaningful graphs. Measuring all of them
+takes days, so pick a range of ranks:
 
 ```bash
 ./measure_all.sh full_links.csv 1-20       # ranks 1 to 20

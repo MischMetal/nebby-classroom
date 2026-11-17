@@ -1,0 +1,12 @@
+{
+  "name": "wikipedia-smooth",
+  "url": "https://en.wikipedia.org/wiki/Transmission_Control_Protocol",
+  "predelay_ms": 0,
+  "postdelay_ms": 50,
+  "bw_kbps": 200,
+  "buffer_bdp": 2,
+  "buffer_bytes": 5000,
+  "timeout_s": 60,
+  "date": "2026-11-17T14:15:34+01:00",
+  "kernel": "7.0.0-38-generic"
+}

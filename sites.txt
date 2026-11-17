@@ -1,0 +1,36 @@
+# Websites to measure with ./measure_all.sh   (format: <name> <url>)
+# Nebby downloads ONE file (the page's HTML, without images/scripts) with wget,
+# so pick URLs whose HTML is large (>= 200 KB is good). Small pages finish
+# before the first loss and only show slow start.
+# Add your own lines, or comment out ones you don't want with '#'.
+
+# --- large web pages
+wikipedia        https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+wikipedia-list   https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+youtube          https://www.youtube.com/
+amazon           https://www.amazon.com/
+github           https://github.com/torvalds/linux
+stackoverflow    https://stackoverflow.com/questions
+reddit           https://www.reddit.com/
+bbc              https://www.bbc.com/news
+cnn              https://edition.cnn.com/
+nytimes          https://www.nytimes.com/
+yahoojp          https://www.yahoo.co.jp/
+apple            https://www.apple.com/
+microsoft        https://www.microsoft.com/en-us/
+netflix          https://www.netflix.com/
+spotify          https://open.spotify.com/
+twitch           https://www.twitch.tv/
+imdb             https://www.imdb.com/
+ebay             https://www.ebay.com/
+bilibili         https://www.bilibili.com/
+discord          https://discord.com/
+zoom             https://www.zoom.com/
+dropbox          https://www.dropbox.com/
+tiktok           https://www.tiktok.com/explore
+instagram        https://about.instagram.com/
+
+# --- large files from CDNs (the download is cut off by the time limit, which is fine)
+kernel-org       https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.tar.xz
+cloudflare-speed https://speed.cloudflare.com/__down?bytes=5000000
+python-org       https://www.python.org/ftp/python/3.12.0/Python-3.12.0.tar.xz

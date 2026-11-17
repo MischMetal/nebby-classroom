@@ -1,0 +1,12 @@
+{
+  "name": "netflix-smooth",
+  "url": "https://www.netflix.com/sg/browse/genre/839338",
+  "predelay_ms": 0,
+  "postdelay_ms": 50,
+  "bw_kbps": 200,
+  "buffer_bdp": 2,
+  "buffer_bytes": 5000,
+  "timeout_s": 60,
+  "date": "2026-11-17T14:20:25+01:00",
+  "kernel": "7.0.0-38-generic"
+}
